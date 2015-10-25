@@ -28,8 +28,8 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
   gem 'puma',           '2.11.1'
-
-
+gem 'mysql', '~> 2.9.1'
+gem 'mysql2', '~> 0.4.1'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
